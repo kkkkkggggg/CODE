@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            //现在需要我们使用js代码来创建html标签，并显示在页面上
+            //标签的内容是：<div>1111111111</div>
+            var divObj = document.createElement("div");//在内存中<div></div>
+            divObj.innerHTML="11111111";//<div>1111111111</div>，在内存中
+
+            document.body.appendChild(divObj);
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

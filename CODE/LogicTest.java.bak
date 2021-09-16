@@ -1,0 +1,37 @@
+class  LogicTest
+{
+	public static void main(String[] args) 
+	{
+		boolean a1 = true;
+		a1 = false;
+		int num = 10;
+		if(a1 & (num++ > 0))
+		{
+			System.out.println("我现在在北京");
+		}	
+		else
+		{
+			System.out.println("我现在在南京");
+		}
+
+		System.out.println("num = " + num);
+
+
+		boolean a2 = true;
+		a2 = false;
+		int num1 = 10;
+		if(a1 && (num1++ > 0))
+		{
+			System.out.println("我现在在北京");
+		}	
+		else
+		{
+			System.out.println("我现在在南京");
+		}
+
+		System.out.println("num1 = " + num1);
+
+
+
+	}
+}

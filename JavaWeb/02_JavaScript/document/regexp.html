@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //表示字符串中，是否包含字符e
+        // var patt = new RegExp("e");
+        // var patt = /e/;//也是正则表达式对象
+        // var patt = /[abc]/;//表示要求字符串中，是否包含字母a或b或c
+        // var patt = /[a-z]/;//表示要求字符串是否包含小写字符a-z
+        // var patt = /[A-Z]/;//表示要求字符串是否包含大写字符A-Z
+        // var patt = /[A-Z]/;//表示要求字符串是否包含数字0-9
+        // var patt = /\w/;//表示要求字符是否包含字符、数字、下划线
+        // var patt = /a+/;//表示要求字符串中至少包含一个a
+        // var patt = /a*/;//表示要求字符串中是否包含0个或多个a
+        // var patt = /a?/;//表示要求字符串中是否包含0个或1个a
+        // var patt = /a{3}/;//表示要求字符串是否包含三个连续的a
+        //
+        // var patt = /a{3,}/;//表示要求字符串包含至少三个连续的a
+        // var patt = /a$/;//表示必须以a结尾
+        // var patt = /a^/;//表示要求以a开头
+
+        // var patt = /a{3,5}/;//表示要求字符串是否包含至少三个连续的a或最多5个连续的a
+
+        var patt = /^a{3,5}$/;//要求字符串，从头到尾都必须完全匹配
+        var str = "aaaa";
+
+        alert(patt.test(str));
+
+        //问题：var patt = /a{3,5}/;最多五个字符a什么时候有用
+    </script>
+</head>
+<body>
+
+</body>
+</html>

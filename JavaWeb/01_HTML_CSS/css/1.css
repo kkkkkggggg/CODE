@@ -1,0 +1,15 @@
+div{
+    border: 1px solid red;
+}
+
+span{
+    border: 1px solid red;
+}
+    /*
+    标签名选择器的格式是
+    标签名{
+        属性：值
+    }
+
+    标签名选择器可以决定哪些标签被动的使用这个样式
+    */

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        //让所有复选框都选中
+        //getElementsByName是根据指定的name属性返回多个标签对应的集合
+        //这个集合的操作跟数组一样
+        //集合中的每个元素都是DOM对象
+        //这个集合中元素的顺序是标签在html页面中的顺序
+        var hobbies = document.getElementsByName("hobby");
+        //全选
+        function checkAll() {
+
+            //checked表示复选框的状态，如果选中是true，不选中是false
+            //这个属性可读可写
+            for (var i = 0;i < hobbies.length;i++)
+            {
+                hobbies[i].checked = true;
+            }
+
+        }
+
+        function checkNo() {
+            for (var i = 0;i < hobbies.length;i++)
+            {
+                hobbies[i].checked = false;
+            }
+        }
+
+        function checkReverse() {
+            for (var i = 0;i < hobbies.length;i++)
+            {
+
+                hobbies[i].ckecked = !hobbies[i].checked;
+                // if (hobbies[i].checked == true)
+                // {
+                //     hobbies[i].checked = false;
+                // }else
+                // {
+                //     hobbies[i].checked = true;
+                // }
+
+            }
+        }
+    </script>
+</head>
+<body>
+    兴趣爱好:
+    <input type="checkbox" name="hobby" value="cpp">C++
+    <input type="checkbox" name="hobby" value="java">Iava
+    <input type="checkbox" name="hobby" value="js">JavaScript
+    <br/>
+    <button onclick="checkAll()">全选</button>
+    <button onclick="checkNo()">全不选</button>
+    <button onclick="checkReverse()">反选</button>
+</body>
+</html>

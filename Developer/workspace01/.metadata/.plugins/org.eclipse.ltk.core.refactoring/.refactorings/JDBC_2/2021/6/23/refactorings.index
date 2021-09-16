@@ -1,0 +1,30 @@
+1622511913938	Delete element
+1622602300788	Copy compilation units
+1622613123963	Delete element
+1622613127230	Delete element
+1622613185245	Copy compilation unit
+1622614987963	Delete element
+1622615274083	Delete element
+1622616996841	Copy file
+1622617007977	Delete element
+1622617013320	Delete element
+1622617050337	Move file
+1622617055749	Move file
+1622617058457	Move file
+1622617336062	Delete element
+1622619357588	Delete element
+1622619433325	Rename package 'connection'
+1622619453212	Rename package 'transaction'
+1622619479858	Rename package 'dao'
+1622619496136	Rename package 'dao.junit'
+1622619520885	Rename package 'dao_2'
+1622619538193	Rename package 'dao_2.junit'
+1622619549073	Rename package 'jdbc.utils'
+1622621538603	Copy package
+1622621563376	Delete element
+1622621574439	Delete element
+1622621578745	Delete element
+1622622974823	Move file
+1622637276124	Delete element
+1622690292688	Rename package 'com.ck.test'
+1622690417704	Rename type 'Test'

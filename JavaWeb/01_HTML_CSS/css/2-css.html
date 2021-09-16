@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--style标签专门用来定义css样式代码-->
+    <style type="text/css">
+        /*
+
+         */
+        div{
+            border: 1px solid red;
+        }
+        span{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    第二种：
+    在 head 标签中，使用 style 标签来定义各种自己需要的 css 样式。
+    格式如下：
+    xxx {
+    Key : value value;
+    }
+
+    问题：这种方式的缺点。
+    1.只能在同一页面内复用代码，不能在多个页面中复用 css 代码。
+    2.维护起来不方便，实际的项目中会有成千上万的页面，要到每个页面中去修改。工作量太大了。
+
+    需求 1：分别定义两个 div、span 标签，分别修改每个 div 标签的样式为：边框 1 个像素，实线，红色。
+    -->
+    <div>div标签一</div>
+    <div>div标签二</div>
+    <span>span标签一</span>
+    <span>span标签二</span>
+
+</body>
+</html>

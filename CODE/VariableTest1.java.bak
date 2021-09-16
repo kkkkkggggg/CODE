@@ -1,0 +1,40 @@
+/*
+ 基本数据类型之间的运算规则：
+
+ 前提 ： 这里只讨论7种基本数据类型变量间的运算，不包括boolean类型
+
+ 1. 自动类型提升：
+	当容量小的数据类型的变量与容量大的数据类型的变量做运算时，结果自动提升为容量大的数据类型
+	byte-->short-->int-->long-->float-->double
+
+
+
+
+
+
+ 2. 强制类型转换：
+
+
+
+
+
+
+
+*/
+class VariableTest1
+{
+	public static void main(String[] args)
+	{
+		byte b1 = 2;
+		int i1 =129;
+		//byte b2 = b1 + i1;   编译不通过 byte型取值 -128~127
+		int l1 = b1 + i1;
+		System.out.println(l1);
+
+		char c1 = 'a';
+		int c2 = 10;
+		int c3 = c1 + c2;
+		System.out.println(c3);
+		
+	}
+}
