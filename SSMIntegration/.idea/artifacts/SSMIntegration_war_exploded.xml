@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSMIntegration:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSMIntegration_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSMIntegration/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSMIntegration" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="jsqlparser-0.9.5" />
+          <element id="library" level="module" name="JUnit4" module-name="SSMIntegration" />
+          <element id="library" level="project" name="taglibs-standard" />
+          <element id="library" level="project" name="Upload_Download" />
+          <element id="library" level="project" name="Spring_TEST" />
+          <element id="library" level="project" name="Spring_MVC_CORE" />
+          <element id="library" level="project" name="Spring_JDBC" />
+          <element id="library" level="project" name="Spring_IOC_CORE" />
+          <element id="library" level="project" name="Spring_AOP_CORE" />
+          <element id="library" level="project" name="Mysql-Connector_And_Druid" />
+          <element id="library" level="project" name="MyBatis_CORE" />
+          <element id="library" level="project" name="Kaptcha" />
+          <element id="library" level="project" name="Jstl_Standard" />
+          <element id="library" level="project" name="Ehcache_Combine" />
+          <element id="library" level="project" name="Data_Verification" />
+          <element id="library" level="project" name="Ajax" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

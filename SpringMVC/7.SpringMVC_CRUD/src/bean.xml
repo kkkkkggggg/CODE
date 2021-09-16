@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+        <context:component-scan base-package="com.atck"></context:component-scan>
+
+        <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+            <property name="url" value="jdbc:mysql:///book"/>
+            <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+            <property name="username" value="root"/>
+            <property name="password" value="12138970"/>
+        </bean>
+
+        <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+            <property name="dataSource" ref="dataSource"/>
+        </bean>
+
+        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <property name="prefix" value="/pages/"/>
+            <property name="suffix" value=".jsp"/>
+        </bean>
+
+    <!--默认前端控制器是拦截所有资源（除了jsp），js文件就404，js文件是交给tomcat处理的
+    http://localhost:8080/7_SpringMVC_CRUD/script/jquery-1.7.2.js
+    -->
+    <!--告诉SpringMVC，自己映射的请求就自己处理，不能处理的请求就交给tomcat-->
+    <!--静态资源能访问，动态映射的请求又不行了-->
+    <mvc:default-servlet-handler/>
+    <!--SpringMVC可以保证动态请求和静态请求都能访问-->
+    <mvc:annotation-driven></mvc:annotation-driven>
+
+</beans>

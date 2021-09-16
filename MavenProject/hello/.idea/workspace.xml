@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6326d6b0-191d-460d-873e-6c5def9d08b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/DevelopmentSoftware/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\DevelopmentSoftware\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wHutbSpoXtP9U5WkkLVqvC3KXs" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM-CRUD" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15390626" />
+    <property name="project.structure.side.proportion" value="0.4965358" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6326d6b0-191d-460d-873e-6c5def9d08b8" name="Default Changelist" comment="" />
+      <created>1628128050166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628128050166</updated>
+      <workItem from="1628128055819" duration="6000" />
+      <workItem from="1628128280571" duration="7478000" />
+      <workItem from="1628144701825" duration="3132000" />
+      <workItem from="1628150117326" duration="3709000" />
+      <workItem from="1628762668125" duration="68000" />
+      <workItem from="1628763528696" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628762729444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1628762729444" />
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1628129717623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="301" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1628129717623" />
+    <state x="349" y="67" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1628129714873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.824@0.0.1536.824" timestamp="1628129714873" />
+    <state x="848" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1628142383167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="848" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1628142383167" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628763533929">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628763533929" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1628154744892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628154744892" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1628154744892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628154744892" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1628154744892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628154744892" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1628154744892">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628154744892" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1628129938694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1628129938694" />
+    <state x="657" y="110" key="NewModule_or_Project.wizard" timestamp="1628128631986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="657" y="110" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1628128631986" />
+    <state x="218" y="0" key="SettingsEditor" timestamp="1628151705640">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="218" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628151705640" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1628150117885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1628150117885" />
+    <state x="178" y="107" key="new project wizard" timestamp="1628152581165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1628152581165" />
+  </component>
+</project>

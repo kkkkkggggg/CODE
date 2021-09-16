@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="7.SpringMVC_CRUD:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/7_SpringMVC_CRUD_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="7.SpringMVC_CRUD/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="7.SpringMVC_CRUD" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="taglibs-standard-impl-1.2.1" />
+          <element id="library" level="project" name="spring-beans-5.2.6.RELEASE" />
+          <element id="library" level="project" name="7.SpringMVC_CRUD" />
+          <element id="library" level="module" name="JUnit4" module-name="7.SpringMVC_CRUD" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

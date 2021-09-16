@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jsqlparser-0.9.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/8.MyBatis_MBG/lib/jsqlparser-0.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/8.MyBatis_MBG/lib/pagehelper-5.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

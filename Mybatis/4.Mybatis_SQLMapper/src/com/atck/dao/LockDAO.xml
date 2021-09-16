@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间，写接口的全类名，相当于告诉mybatis这个配置文件是实现哪个接口的-->
+<mapper namespace="com.atck.dao.LockDAO">
+    <!--    public Lock getLockByIdSimple(Integer id);-->
+    <select id="getLockByIdSimple" resultType="com.atck.bean.Lock">
+        select * from t_lock where id = #{id}
+    </select>
+
+
+
+
+
+    <!--public void getLockById(Integer id);-->
+    <select id="getLockById" resultMap="lock">
+        SELECT l.*,k.`id` kid,k.`keyname`,k.`lockid` FROM t_lock l LEFT JOIN t_key k ON l.`id` = k.`lockid` WHERE l.`id` = #{id};
+    </select>
+
+    <!--
+    private Integer id;
+    private String lockName;
+
+    //查询锁的时候把所有的钥匙也查询出来
+    private List<Key> keyList;
+    -->
+    <resultMap id="lock" type="com.atck.bean.Lock">
+        <id property="id" column="id"/>
+        <result property="lockName" column="lockname"/>
+        <!--collection定义集合元素封装
+            property:指定哪个属性是集合
+            ofType=""：指定集合里元素的类型
+        -->
+        <collection property="keyList" ofType="com.atck.bean.Key">
+            <!--标签体中集合中这个元素的封装规则-->
+            <id property="id" column="kid"/>
+            <result property="keyName" column="keyname"/>
+        </collection>
+    </resultMap>
+</mapper>

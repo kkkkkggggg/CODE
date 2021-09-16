@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hello/Hello.iml" filepath="$PROJECT_DIR$/../hello/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloFriend/HelloFriend.iml" filepath="$PROJECT_DIR$/../HelloFriend/HelloFriend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MakeFriend/MakeFriend.iml" filepath="$PROJECT_DIR$/../MakeFriend/MakeFriend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Parent.iml" filepath="$PROJECT_DIR$/Parent.iml" />
+    </modules>
+  </component>
+</project>

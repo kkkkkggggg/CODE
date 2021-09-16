@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间，写接口的全类名，相当于告诉mybatis这个配置文件是实现哪个接口的-->
+<mapper namespace="com.atck.dao.EmployeeDAO">
+    <!--select:用来定义一个查询操作
+        id:方法名，相当于配置是对于某个方法的实现
+        resultType：指定这个方法运行后的返回值类型：（查询操作是必须指定的）
+        #{属性名}：代表取出传递过来的某个参数的值
+    -->
+
+
+
+    <select id="getEmpById" resultType="com.atck.bean.Employee">
+    select * from t_employee where id = #{id}
+  </select>
+
+
+    <!--    Employee getEmpByIdAndEmpname(Integer id,String empname)-->
+    <!--
+    org.apache.ibatis.exceptions.PersistenceException:
+    ### Error querying database.  Cause: org.apache.ibatis.binding.BindingException: Parameter 'id' not found. Available parameters are [0, 1, param1, param2]
+    ### Cause: org.apache.ibatis.binding.BindingException: Parameter 'id' not found. Available parameters are [0, 1, param1, param2]
+    -->
+    <select id="getEmpByIdAndEmpname" resultType="com.atck.bean.Employee">
+        select * from t_employee where id = #{id,jdbcType=INTEGER} and empname = #{empname}
+    </select>
+    <!--
+        现象：
+        1）、单个参数
+                基本类型：#{随便写}
+        2）、多个参数
+                public Employee getEmpByIdAndEmpname(Integer id,String empname)
+                取值：#{参数名}是无效了
+                可用：0，1(参数索引),或者param1,param2(第N个参数：paramN)
+                原因：只要传入了多个参数，mybatis会自动将这些参数封装在map中
+                封装时使用的key就是参数的索引和参数的第几个标识
+                Map<String,Object> map = new HashMap<>();
+                map.put("1",传入的值); map.put("2",传入的值)
+                #{key}就是从这个map中取值
+
+                我们可以告诉mybatis，封装参数mao的时候使用我们指定的key
+                @Param:为参数指定key，命名参数，我们也推荐这么做
+        3）、传入了map：将多个要使用的参数封装起来
+                取值：#{key}
+        4）、传入了pojo
+                取值：#{pojo的属性名}
+        扩展：多个参数：自动封装map
+        method01(@Param("id") Integer id,String empName,Employee employee);
+        Integer id -> #{id}
+        String empName -> #{param2}
+        Employee employee(取出这个对象中的email)  ->${param3.email}
+
+        无论传入什么参数，都要正确的取出值
+            1)、#{key}取值的时候可以设置一些规则
+            id=#{id,jdbcType=INTEGER};
+            javaType、jdbcType、mode、numericScale、resultMap、typeHandler、jdbcTypeName、expression
+            只有jdbcType才可能是需要被指定的
+                默认不知道jdbcType：mysql没问题，oracle没问题
+                万一插入的数据是null
+                mysql插入null没问题，【oracle不知道null到底是什么类型】
+
+            实际上在mybatis中有两种取值方式
+            ${属性名}:不是预编译，而是直接和sql语句进行拼串，不安全
+                    sql语句只有参数位置是支持预编译的,${}可以使用在表名等不支持预编译的位置，实现动态传入参数
+                        log_2021_07、log_2021_08
+                        select * from  where log_2021_07 id = ? and empname = ?
+                        select * from  where ${tableName} id = ? and empname = ?
+            #{属性名}:是参数预编译的方式，参数的位置都只用?替代，参数都是预编译设置进去的；安全，不会有sql注入问题
+
+            id=#{id} and empname=#{empName}
+            select * from t_employee where id = ? and empname = ?
+
+            id=${id} and empname=#{empName}
+            select * from t_employee where id = 1 and empname = ?
+
+    -->
+
+
+
+    <!--
+        增删改不用写返回值类型：增删改是返回影响多少行
+        mybatis自动判断，如果是数字（int，lang）
+        如果是boolean（影响0行自动封装false，否则true）
+    -->
+    <update id="updateEmployee">
+        update t_employee set empname = #{empName},gender = #{gender},email = #{email} where id = #{id}
+    </update>
+
+    <delete id="deleteEmployee">
+        delete from t_employee where id = #{id}
+    </delete>
+
+    <!--public int insertEmployee(Employee employee)-->
+    <!--让MyBatis自动的将自增id赋值给传入的employee的id属性
+    useGeneratedKeys="true"原生jdbc获取自增主键的方法
+    keyProperty="id";将刚才自增的id赋值给哪个属性
+    -->
+    <insert id="insertEmployee" useGeneratedKeys="true" keyProperty="id">
+        insert into t_employee(empname,gender,email) values (#{empName},#{gender},#{email})
+    </insert>
+
+    <!--    int insertEmployee2(Employee employee)-->
+    <insert id="insertEmployee2">
+        <!--查询主键
+                    order="BEFORE":
+                    在核心sql语句运行之前运行一个查询sql查到id，将查到的id赋值给javabean的哪个属性
+                    当数据库不支持自增主键的时候使用这个方法
+         -->
+        <selectKey order="BEFORE" keyProperty="id" resultType="integer">
+            select max(id)+1 from t_employee
+        </selectKey>
+        insert into t_employee(id,empname,gender,email) values (#{id},#{empName},#{gender},#{email})
+    </insert>
+    <!--
+        这个文件中可以写的标签
+
+        <insert id=""></insert>
+        <delete id=""></delete>
+        <update id=""></update>
+        <insert id=""></insert>
+        <cache></cache>:和缓存有关
+        <cache-ref namespace=""/>:和缓存有关
+        <parameterMap id="" type=""></parameterMap>:参数map，废弃的
+        <resultMap id="" type=""></resultMap>:结果集map
+        <sql id=""></sql>:抽取可重用sql语句,
+    -->
+
+
+    <!--public List<Employee> getAllEmps();-->
+    <!--resultType="com.com.com.atck.bean.Employee":如果返回值类型是集合，返回值类型写的是集合里元素的类型-->
+    <select id="getAllEmps" resultType="com.atck.bean.Employee">
+        select * from t_employee
+    </select>
+
+
+    <!--public Map<String,Object> getEmpByIdReturnMap(Integer id);-->
+    <!--查询一条记录返回map，返回类型写map-->
+    <select id="getEmpByIdReturnMap" resultType="map">
+        select * from t_employee where id = #{id}
+    </select>
+
+    <!--public Map<String,Object> getAllEmpsReturnMap();-->
+    <!--查询多条记录返回map，返回类型写集合里元素的类型-->
+    <select id="getAllEmpsReturnMap" resultType="com.atck.bean.Employee">
+        select * from t_employee
+    </select>
+</mapper>

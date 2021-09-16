@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace:名称空间，写接口的全类名，相当于告诉mybatis这个配置文件是实现哪个接口的-->
+<mapper namespace="com.atck.dao.KeyDAO">
+
+    <!--    public Key getKeyByIdSimple(Integer id);-->
+    <!--查询key的时候也可以带上锁的信息-->
+    <select id="getKeyByIdSimple" resultMap="mykey">
+        select * from t_key where id = #{id}
+    </select>
+    <resultMap id="mykey" type="com.atck.bean.Key">
+        <id property="id" column="id"/>
+        <result property="keyName" column="keyname"/>
+        <!--告诉mybatis自己去调用一个查询去查询锁的信息
+        select=""，指定一个查询sql的唯一标识，mybatis会调用指定的sql将查出的lock封装进来
+
+        public Lock getLockByIdSimple(Integer id);需要传入锁的id
+        告诉mybatis把哪一列的值作为参数传入sql
+
+        -->
+        <association property="lock" select="com.atck.dao.LockDAO.getLockByIdSimple" column="lockid">
+            <id property="id" column="id"/>
+            <result property="lockName" column="lockname"/>
+        </association>
+    </resultMap>
+
+
+    <!--《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》《》-->
+    <!--
+    private Integer id;//钥匙的id
+    private String keyName;
+    private Lock lock;//当前钥匙能开哪个锁
+    -->
+
+   <select id="getKeyById" resultMap="key">
+       SELECT k.id,k.keyname,k.lockid,l.id lid,l.lockname FROM t_key k LEFT JOIN t_lock l ON k.`lockid` = l.`id` WHERE k.`id` = #{id};
+   </select>
+
+    <!--自定义封装规则：使用级联属性封装联合查询出的结果-->
+    <!--<resultMap id="key" type="com.com.com.atck.bean.Key">
+        <id column="id" property="id"/>
+        <result column="keyname" property="keyName"/>
+        <result column="lid" property="lock.id"/>
+        <result column="lockname" property="lock.lockName"/>
+    </resultMap>-->
+
+    <!--MyBatis推荐的<association property=""></association>-->
+    <resultMap id="key" type="com.atck.bean.Key">
+        <id column="id" property="id"/>
+        <result column="keyname" property="keyName"/>
+        <!--接下来的属性是一个对象，自定义这个对象的封装规则
+        javaType="com.com.com.atck.bean.Lock"  指定这个属性类型
+        -->
+        <association property="lock" javaType="com.atck.bean.Lock">
+            <!--定义lock属性对应的Lock对象如何封装-->
+            <id property="id" column="lid"/>
+            <result property="lockName" column="lockname"/>
+        </association>
+    </resultMap>
+</mapper>

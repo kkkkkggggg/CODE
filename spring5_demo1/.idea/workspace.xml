@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="562b03a3-7a84-4d0f-b1b4-49860d8a06c8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1v3qSVxWwNZTUYusgN98FWZEKOu" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSenior" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20398483" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentDocument" />
+      <recent name="D:\DevelopmentDocument\spring5_demo1\src" />
+      <recent name="D:\DevelopmentDocument\spring5_demo1\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestBean.testEmployee2">
+    <configuration name="TestBean.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.spring.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.spring.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.spring.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBean.testEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.spring.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.spring.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.spring.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBean.testEmployee1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.spring.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.spring.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.spring.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testEmployee1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBean.testEmployee2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.spring.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.spring.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.spring.testdemo.TestBean" />
+      <option name="METHOD_NAME" value="testEmployee2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpring5.testBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.spring.testdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.spring.testdemo" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.spring.testdemo.TestSpring5" />
+      <option name="METHOD_NAME" value="testBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestBean.testEmployee2" />
+        <item itemvalue="JUnit.TestBean.testEmployee1" />
+        <item itemvalue="JUnit.TestBean.testEmployee" />
+        <item itemvalue="JUnit.TestBean.testAdd" />
+        <item itemvalue="JUnit.TestSpring5.testBook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="562b03a3-7a84-4d0f-b1b4-49860d8a06c8" name="Default Changelist" comment="" />
+      <created>1625801119295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625801119295</updated>
+      <workItem from="1625801124457" duration="14003000" />
+      <workItem from="1625880903227" duration="6076000" />
+      <workItem from="1625889608515" duration="1852000" />
+      <workItem from="1626315656306" duration="31000" />
+      <workItem from="1626506757377" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1625808042328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1625808042328" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1625890076260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1625890076260" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1626506768403">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626506768403" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1625891598882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625891598882" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1625891598882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625891598882" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1625891598882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625891598882" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1625891598882">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625891598882" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1625806981919">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625806981919" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1625889608353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1625889608353" />
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1625808800183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1625808800183" />
+  </component>
+</project>

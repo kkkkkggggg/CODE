@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<context:component-scan base-package="com.atck"></context:component-scan>
+	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/pages/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+
+	<mvc:default-servlet-handler/>
+
+	<mvc:annotation-driven></mvc:annotation-driven>
+	
+
+<!--	&lt;!&ndash;配置文件上传解析器,id必须是multipartResolver&ndash;&gt;-->
+<!--	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">-->
+<!--		<property name="maxUploadSize" value="#{1024*1024*20}"></property>-->
+<!--		&lt;!&ndash;设置默认的编码&ndash;&gt;-->
+<!--		<property name="defaultEncoding" value="utf-8"></property>-->
+<!--		&lt;!&ndash;&ndash;&gt;-->
+<!--	</bean>-->
+
+
+<!--	<mvc:interceptors>-->
+<!--		&lt;!&ndash;配置某个拦截器,默认拦截所有请求&ndash;&gt;-->
+<!--		<bean class="com.atck.controller.MyFirstInterceptor"></bean>-->
+<!--		<bean class="com.atck.controller.MySecondInterceptor"></bean>-->
+<!--&lt;!&ndash;		&lt;!&ndash;配置某个拦截器更详细的信息&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;		<mvc:interceptor>&ndash;&gt;-->
+<!--&lt;!&ndash;			&lt;!&ndash;只拦截test01请求&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;			<mvc:mapping path="/test01"/>&ndash;&gt;-->
+<!--&lt;!&ndash;			<bean class="com.atck.controller.MyFirstInterceptor"></bean>&ndash;&gt;-->
+<!--&lt;!&ndash;		</mvc:interceptor>&ndash;&gt;-->
+<!--	</mvc:interceptors>-->
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="login"></property>
+	</bean>
+
+	<!--自定义区域信息解析器-->
+<!--	<bean id="localeResolver" class="com.atck.controller.MyLocaleResolver"></bean>-->
+	<!--区域信息从session中拿-->
+	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"></bean>
+
+	<!--在目标方法运行之前拿到请求参数中的key为locale的区域信息，并设置-->
+	<mvc:interceptors>
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"></bean>
+	</mvc:interceptors>
+</beans>

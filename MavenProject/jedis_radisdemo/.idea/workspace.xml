@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1dc7137-4f0b-4723-b1e2-33886e28ea2f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wpkbMmOfTsuEZbY8096wonrbCn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../redis_spring" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15390626" />
+    <property name="project.structure.side.proportion" value="0.36027715" />
+  </component>
+  <component name="RunManager" selected="Application.RedisClusterDemo">
+    <configuration name="PhoneCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atck.jedis.PhoneCode" />
+      <module name="jedis_radisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisClusterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atck.jedis.RedisClusterDemo" />
+      <module name="jedis_radisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisDemo1.demo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedis_radisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.jedis.JedisDemo1" />
+      <option name="METHOD_NAME" value="demo3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisDemo1.demo4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedis_radisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.jedis.JedisDemo1" />
+      <option name="METHOD_NAME" value="demo4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisDemo1.demo5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jedis_radisdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.jedis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atck.jedis" />
+      <option name="MAIN_CLASS_NAME" value="com.atck.jedis.JedisDemo1" />
+      <option name="METHOD_NAME" value="demo5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RedisClusterDemo" />
+        <item itemvalue="Application.PhoneCode" />
+        <item itemvalue="JUnit.JedisDemo1.demo5" />
+        <item itemvalue="JUnit.JedisDemo1.demo4" />
+        <item itemvalue="JUnit.JedisDemo1.demo3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1dc7137-4f0b-4723-b1e2-33886e28ea2f" name="Default Changelist" comment="" />
+      <created>1629162987168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629162987168</updated>
+      <workItem from="1629162990418" duration="9907000" />
+      <workItem from="1629249458594" duration="668000" />
+      <workItem from="1629250887794" duration="12000" />
+      <workItem from="1629378560460" duration="1253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1629381779620">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629381779620" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1629381780881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629381780881" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1629381780881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629381780881" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1629381780881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629381780881" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1629381780881">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629381780881" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1629168337178">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1629168337178" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1629168383127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1629168383127" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1629250637982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1629250637982" />
+    <state x="178" y="107" key="new project wizard" timestamp="1629250715071">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1629250715071" />
+  </component>
+</project>

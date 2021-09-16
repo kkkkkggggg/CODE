@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--        &lt;!&ndash;1.service和dao对象创建&ndash;&gt;-->
+<!--    <bean id="userService" class="com.atck.spring.service.UserService">-->
+<!--        &lt;!&ndash;注入userDao对象&ndash;&gt;-->
+<!--        <property name="userDAO" ref="userDao"></property>-->
+<!--    </bean>-->
+
+<!--    <bean id="userDao" class="com.atck.spring.dao.UserDAOImpl"></bean>-->
+
+    <!--内部bean-->
+    <bean id="employee" class="com.atck.spring.bean.Employee">
+        <property name="ename" value="kkkkk"></property>
+        <property name="gender" value="男"></property>
+        <property name="department">
+            <bean id="department" class="com.atck.spring.bean.Department">
+                <property name="dname" value="设计部"></property>
+            </bean>
+        </property>
+
+    </bean>
+</beans>

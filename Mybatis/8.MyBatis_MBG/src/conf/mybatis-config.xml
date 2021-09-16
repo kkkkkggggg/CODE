@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    
+
+    
+    <settings>
+        <!--开启驼峰命名规则-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启延迟加载开关-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--开启属性按需加载-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!--开启全局缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+    </plugins>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--配置连接池-->
+            <dataSource type="POOLED">
+                <!--${}取出配置文件中的值-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql:///mybatis"/>
+                <property name="username" value="root"/>
+                <property name="password" value="12138970"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <package name="com.atck.dao"/>
+    </mappers>
+
+
+
+</configuration>

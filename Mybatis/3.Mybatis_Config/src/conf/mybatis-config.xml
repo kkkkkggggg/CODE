@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--1、和Spring的context:property-placeholder一样，引用外部配置文件-->
+    <!--
+        resource:从类路径下开始引用
+        url：引用磁盘路径或网络路径的资源
+    -->
+    <properties resource="dbconfig.properties"></properties>
+
+    <!--2.settings这是 MyBatis 中极为重要的调整设置，它们会改变 MyBatis 的运行时行为。 下表描述了设置中各项设置的含义、默认值等。-->
+    <settings>
+        <!--name:配置项的key，value：配置项的值-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--3.类型别名,为常用的类型（javabean）起别名-->
+    <!--<typeAliases>-->
+        <!--typeAlias:就是为一个javabean起别名，别名默认就是类名不区分大小写，配置文件中就可以用别名了
+            alias：指定一个别名
+        -->
+        <!--<typeAlias type="com.atck.bean.Employee" alias="emp"></typeAlias>-->
+
+        <!--批量起别名,name=""指定包名-->
+        <!--可以在所指批量起别名的包中的类上使用@Alias注解，指定别名-->
+        <!--推荐就用全类名-->
+        <!--<package name="com.atck.bean"/>-->
+    <!--</typeAliases>-->
+
+    <!--4、类型处理器，作用-->
+    <!--<typeHandlers>
+        自定义好的类型处理器，配置上就行了
+    </typeHandlers>-->
+
+    <!--5、插件是mybatis中一个非常强大的功能-->
+
+
+    <!--6、environments配置所有环境
+    environment配置一个具体的环境，都需要一个事务管理器和一个数据源
+    id="development"：是当前环境的唯一标识
+    default="development"：默认使用id为development的环境
+    后来数据源、事务管理都是Spring来做
+    -->
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <!--配置连接池-->
+            <dataSource type="POOLED">
+                <!--${}取出配置文件中的值-->
+                <property name="driver" value="${driverclass}"/>
+                <property name="url" value="${jdbcurl}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--6、mybatis用来考虑做数据库移植的
+    name:数据库厂商标识，
+    value：给这个标识起一个 好用的名字
+    MySQL,SQL Server,Oracle
+    -->
+   <!-- <databaseIdProvider type="DB_VENDOR">
+        <property name="MySQL" value="mysql"/>
+        <property name="SQL Server" value="sqlserver"/>
+        <property name="Oracle" value="orcl"/>
+    </databaseIdProvider>-->
+
+    <!--7、注册我们自己编写的每一个接口的映射文件-->
+    <mappers>
+        <!--
+            class:直接引用接口的全类名，此时需要接口和映射文件在同一文件目录下，并且命名相同
+            resource:在类路径下找sql映射文件
+            url:可以从磁盘或网络路径引用
+        -->
+
+        <!--class的另一种用法，在接口的方法上使用注解
+        <mapper class="com.atck.dao.EmployeeDAO"></mapper>指明接口
+        接口和配置文件两种方式配合使用
+        重要的dao写配置
+        简单的dao直接标注解
+        -->
+        <mapper resource="EmployeeDAO.xml"/>
+        <!--<mapper class="com.atck.dao.EmployeeDAO"></mapper>-->
+
+        <!--批量注册 name="",dao所在的包名,这种注册方法要求接口和映射文件在同一个目录下-->
+        <!--<package name="com.atck.dao"/>-->
+    </mappers>
+
+
+
+</configuration>
