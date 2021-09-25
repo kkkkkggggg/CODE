@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8004fee6-cd92-46cd-9927-6e2ad03393ea" name="Default Changelist" comment="" />
+    <list default="true" id="8004fee6-cd92-46cd-9927-6e2ad03393ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/MybatisPlusTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/src/main/java/com/atck/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/MybatisPlusTest/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +34,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1vvcps0iCzrjee7gahU398GdNdZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,10 +51,11 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSMIntegration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15390626" />
     <property name="project.structure.side.proportion" value="0.20398483" />
@@ -202,6 +222,7 @@
       <workItem from="1627868997787" duration="926000" />
       <workItem from="1627869945156" duration="624000" />
       <workItem from="1627870591831" duration="13298000" />
+      <workItem from="1631782998948" duration="166000" />
     </task>
     <servers />
   </component>
