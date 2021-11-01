@@ -23,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -48,6 +51,7 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1w40rDVFmx8dHe43qvuDWUAXFhh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSMIntegration" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15390626" />
     <property name="project.structure.side.proportion" value="0.20398483" />
@@ -281,6 +285,7 @@
       <workItem from="1628059685095" duration="14000" />
       <workItem from="1628059744248" duration="50000" />
       <workItem from="1628059943550" duration="118000" />
+      <workItem from="1633787101001" duration="19000" />
     </task>
     <servers />
   </component>
@@ -304,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1627710404491" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628059980902">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1633787118139">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628059980902" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1633787118139" />
     <state width="1257" height="216" key="GridCell.Tab.0.bottom" timestamp="1627738514158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
