@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2de7c7f7-abbd-455f-b78e-231e184e020b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hot-fix" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="aada23eb-eba9-4dd4-a3e7-b0f59404435e" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\DevelopmentDocument\MavenProject\git-test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1whRLK0K9irZOBqku07f77jcbgG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JavaWeb" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15390626" />
+    <property name="project.structure.side.proportion" value="0.36027715" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atck.git.GitTest" />
+      <module name="git-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atck.git.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+        <item itemvalue="Application.GitTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2de7c7f7-abbd-455f-b78e-231e184e020b" name="Default Changelist" comment="" />
+      <created>1628908776037</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628908776037</updated>
+      <workItem from="1628908779680" duration="6996000" />
+      <workItem from="1628920934525" duration="328000" />
+      <workItem from="1628921290652" duration="318000" />
+      <workItem from="1628921639580" duration="168000" />
+      <workItem from="1628921826458" duration="50000" />
+      <workItem from="1628921901988" duration="66000" />
+      <workItem from="1628921984745" duration="179000" />
+      <workItem from="1628922181885" duration="60000" />
+      <workItem from="1628922257501" duration="13000" />
+      <workItem from="1628922286491" duration="156000" />
+      <workItem from="1628922459286" duration="509000" />
+      <workItem from="1628922985196" duration="908000" />
+      <workItem from="1628923913211" duration="1903000" />
+      <workItem from="1628949242965" duration="6000" />
+      <workItem from="1628996639674" duration="15000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1628909691704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628909691704</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1628909880091</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628909880091</updated>
+    </task>
+    <task id="LOCAL-00003" summary="third commit">
+      <created>1628909932653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628909932653</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hot-fix commit1">
+      <created>1628910420815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628910420815</updated>
+    </task>
+    <task id="LOCAL-00005" summary="hot-fix commit2">
+      <created>1628910613771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628910613771</updated>
+    </task>
+    <task id="LOCAL-00006" summary="master commit2">
+      <created>1628910676935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628910676935</updated>
+    </task>
+    <task id="LOCAL-00007" summary="push commit">
+      <created>1628918700703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628918700703</updated>
+    </task>
+    <task id="LOCAL-00008" summary="push commit2">
+      <created>1628918923880</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628918923880</updated>
+    </task>
+    <task id="LOCAL-00009" summary="gitee commit">
+      <created>1628923586524</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1628923586524</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit" />
+    <MESSAGE value="hot-fix commit1" />
+    <MESSAGE value="hot-fix commit2" />
+    <MESSAGE value="master commit2" />
+    <MESSAGE value="push commit" />
+    <MESSAGE value="push commit2" />
+    <MESSAGE value="gitee commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitee commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Custom_Plugin_Repositories" timestamp="1628920905112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1628920905112" />
+    <state x="361" y="70" key="#HTTP_Proxy" timestamp="1628922439783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1628922439783" />
+    <state x="361" y="71" key="#Notifications" timestamp="1628917659020">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1628917659020" />
+    <state x="367" y="6" key="CommitChangelistDialog2" timestamp="1628923585885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1628923585885" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1628996652459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1628996652459" />
+    <state x="619" y="312" key="Gitee.ShareDialog" timestamp="1628923246168">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="619" y="312" key="Gitee.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1628923246168" />
+    <state x="618" y="316" key="Github.Dialog.Accounts.Choose" timestamp="1628917797476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="316" key="Github.Dialog.Accounts.Choose/0.0.1536.824@0.0.1536.824" timestamp="1628917797476" />
+    <state x="783" y="194" key="Github.ShareDialog" timestamp="1628918581171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="783" y="194" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1628918581171" />
+    <state width="1493" height="92" key="GridCell.Tab.0.bottom" timestamp="1628920919088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="92" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1628920919088" />
+    <state width="1493" height="92" key="GridCell.Tab.0.center" timestamp="1628920919088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="92" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1628920919088" />
+    <state width="1493" height="92" key="GridCell.Tab.0.left" timestamp="1628920919087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="92" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1628920919087" />
+    <state width="1493" height="92" key="GridCell.Tab.0.right" timestamp="1628920919088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="92" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1628920919088" />
+    <state x="147" y="65" key="MergeDialog" timestamp="1628910830754">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1628910830754" />
+    <state x="477" y="128" key="MultipleFileMergeDialog" timestamp="1628910830769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1628910830769" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1628923983856">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1628923983856" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1628923689596">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1628923689596" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1628996638695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1628996638695" />
+    <state x="459" y="203" key="git4idea.merge.GitPullDialog" timestamp="1628923871417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1628923871417" />
+  </component>
+</project>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="562b03a3-7a84-4d0f-b1b4-49860d8a06c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/gmall-interface/gmall-interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__com_alibaba_dubbo_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__com_atck_gmall_interface_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_apache_curator_curator_client_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_apache_curator_curator_framework_2_12_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_aop_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_beans_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_context_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_core_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_expression_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/order-service-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/activemq-data/localhost/KahaDB/db-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/activemq-data/localhost/KahaDB/db.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/activemq-data/localhost/KahaDB/db.redo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/broker/EmbedBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/persist/JmsTopicConsumer_Persist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/persist/JmsTopic_Persist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/queue/JmsConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/queue/JmsProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/topic/JmsTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/topic/JmsTopicConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/tx/JmsConsumer_TX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activemq-demo/src/main/java/com/atck/activemq/tx/JmsProduce_TX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/order-service-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/order-service-consumer/src/main/java/com/atck/gmall/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/src/main/java/com/atck/gmall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/order-service-consumer/src/main/java/com/atck/gmall/service/impl/UserServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/order-service-consumer/src/main/java/com/atck/gmall/service/impl/UserServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/user-service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/user-service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MavenProject/user-service-provider/src/main/java/com/atck/gmall/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MavenProject/user-service-provider/src/main/java/com/atck/gmall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../activemq-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../activemq-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../activemq-demo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../activemq-demo/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1v3qSVxWwNZTUYusgN98FWZEKOu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20398483" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atckd.test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevelopmentDocument\spring5_demo6\lib" />
+      <recent name="D:\DevelopmentDocument\spring5_demo6\src" />
+      <recent name="D:\DevelopmentDocument\spring5_demo5\lib" />
+      <recent name="D:\DevelopmentDocument\spring5_demo4\src" />
+      <recent name="D:\DevelopmentDocument\spring5_demo4\lib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Test.test">
+    <configuration name="JTest4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_txdemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atckd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atckd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atckd.test.JTest4" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JTest4.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_txdemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atckd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atckd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atckd.test.JTest4" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JTest5.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_txdemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atckd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atckd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atckd.test.JTest5" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_txdemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atckd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atckd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atckd.test.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_txdemo1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atckd.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atckd.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atckd.test.Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="JUnit.JTest5.test" />
+        <item itemvalue="JUnit.Test.test2" />
+        <item itemvalue="JUnit.JTest4.test" />
+        <item itemvalue="JUnit.JTest4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="562b03a3-7a84-4d0f-b1b4-49860d8a06c8" name="Default Changelist" comment="" />
+      <created>1625801119295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625801119295</updated>
+      <workItem from="1625801124457" duration="14003000" />
+      <workItem from="1625880903227" duration="6076000" />
+      <workItem from="1625889608515" duration="1158000" />
+      <workItem from="1625891600778" duration="14394000" />
+      <workItem from="1625909906413" duration="7515000" />
+      <workItem from="1625965541644" duration="1972000" />
+      <workItem from="1626052596363" duration="2335000" />
+      <workItem from="1626057552365" duration="328000" />
+      <workItem from="1626057962684" duration="8462000" />
+      <workItem from="1626070464366" duration="14571000" />
+      <workItem from="1626086069304" duration="825000" />
+      <workItem from="1626091569199" duration="5341000" />
+      <workItem from="1626135981872" duration="12401000" />
+      <workItem from="1626226566680" duration="4673000" />
+      <workItem from="1626257972702" duration="32000" />
+      <workItem from="1626315598003" duration="14000" />
+      <workItem from="1626421021437" duration="996000" />
+      <workItem from="1626439463475" duration="64000" />
+      <workItem from="1626499678041" duration="197000" />
+      <workItem from="1626499908328" duration="1359000" />
+      <workItem from="1626503668883" duration="19000" />
+      <workItem from="1626517847390" duration="224000" />
+      <workItem from="1626518095085" duration="152000" />
+      <workItem from="1626518964905" duration="139000" />
+      <workItem from="1626519161826" duration="23000" />
+      <workItem from="1626527502703" duration="681000" />
+      <workItem from="1626576358678" duration="357000" />
+      <workItem from="1626666830711" duration="641000" />
+      <workItem from="1626668094317" duration="275000" />
+      <workItem from="1626673156399" duration="990000" />
+      <workItem from="1627270722630" duration="16000" />
+      <workItem from="1627394424412" duration="44000" />
+      <workItem from="1636022452904" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1625808042328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1625808042328" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1626092422059">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1626092422059" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625909995156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1625909995156" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1626503685500">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626503685500" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1626668371937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626668371937" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1626668371937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626668371937" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1626668371937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626668371937" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1626668371937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626668371937" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1626171104709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626171104709" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1626171104709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1626171104709" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1626171104708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1626171104708" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1626171104709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1626171104709" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1626673534175">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1626673534175" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1625895600204">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1625895600204" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1626503670478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1626503670478" />
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1626168856039">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1626168856039" />
+  </component>
+</project>
