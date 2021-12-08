@@ -23,8 +23,8 @@ public class Servlet1 extends HttpServlet
         /*
         请求转发必须要以斜杠打头，斜杠表示地址为：http://ip:port/工程名/ ,映射到IEDEA代码的web目录
         */
-//        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/servlet2");
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/from.html");
+       RequestDispatcher requestDispatcher = req.getRequestDispatcher("/servlet2");
+//         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/from.html");
 
         //走向Servlet2
         requestDispatcher.forward(req,resp);

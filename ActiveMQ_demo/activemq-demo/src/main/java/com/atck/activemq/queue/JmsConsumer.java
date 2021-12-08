@@ -7,9 +7,11 @@ import java.io.IOException;
 
 public class JmsConsumer
 {
-    // public static final String ACTIVEMQ_URL="tcp://192.168.153.132:61616";
+    // public static final String ACTIVEMQ_URL="failover:(tcp://192.168.153.132:61616,tcp://192.168.153.132:61617,tcp://192.168.153.132:61618)";
     public static final String ACTIVEMQ_URL="tcp://localhost:61616";
+    // public static final String QUEUE_NAME="jdbc01";
     public static final String QUEUE_NAME="queue01";
+    // public static final String QUEUE_NAME="queue_cluster";
 
     public static void main(String[] args) throws JMSException, IOException
     {

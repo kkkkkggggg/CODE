@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class JmsTopicConsumer_Persist
 {
-    public static final String  ACTIVEMQ_TOPIC = "topic01";
+    public static final String  ACTIVEMQ_TOPIC = "jdbc_topic01";
     public static final String  ACTIVEMQ_URL = "tcp://192.168.153.132:61616";
 
     public static void main(String[] args) throws JMSException, IOException

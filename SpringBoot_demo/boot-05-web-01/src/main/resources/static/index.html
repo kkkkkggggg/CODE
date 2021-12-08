@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>index</h1>
+测试REST风格:
+<form action="/user" method="get">
+    <input value="REST-GET 提交" type="submit"/>
+</form>
+
+<form action="/user" method="post">
+    <input value="REST-POST 提交" type="submit"/>
+</form>
+
+<form action="/user" method="post">
+    <!--    <input name="_method" type="hidden" value="DELETE"/>-->
+    <input name="_m" type="hidden" value="DELETE"/>
+    <input value="REST-DELETE 提交" type="submit"/>
+</form>
+
+<form action="/user" method="post">
+    <!--    <input name="_method" type="hidden" value="PUT"/>-->
+    <input name="_m" type="hidden" value="PUT"/>
+    <input value="REST-PUT 提交" type="submit"/>
+</form>
+<hr/>
+测试基本注解:
+<ul>
+    <a href="/car/3/owner/lisi">@PathVariables(路径变量)</a><br/>
+    <a href="/car/3/owner/lisi">@RequestHeader(获取请求头)</a><br/>
+    <a href="/car/3/owner/lisi?age=18&inters=basketball&inters=game">@RequestParam(获取请求参数)</a><br/>
+    <a href="/car/3/owner/lisi?age=18&inters=basketball&inters=game">@CookieValue(获取cookie值)</a><br/>
+    <li>@RequestBody(获取请求体[POST])</li>
+    <br/>
+    <a href="/goto">@RequestAttribute(获取request域属性)</a><br/>
+    <li>@MatrixVariables(矩阵变量)</li>
+    <br/>
+</ul>
+<a href="/cars/sell;low=34;brand=byd,audi,yd">@MatrixVariables(矩阵变量) /cars/sell;low=34;brand=byd,audi,yd</a><br/>
+<!--<a href="/car/sell;low=34;brand=byd;brand=audi;brand=yd">@MatrixVariables(矩阵变量)</a><br/>-->
+<a href="/boss/1;age=20/2;age=10">@MatrixVariables(矩阵变量)/boss/{bossId}/{empId}</a><br/>
+
+/cars/{path}?xxx=xxx&aaa=ccc queryString 查询字符串 @requestParam: <br/>
+/cars/sell;low=34;brand=byd,audi,yd : 矩阵变量 <br/>
+页面开发，cookie禁用了，session里面的内容怎么使用 <br/>
+session.set(a,b) ---> jsessionid ---> cookie里面保存了jsessionid，每次发请求携带，服务器根据id找到session，获取session中的值 <br/>
+url重写：/abc;jsessionid=xxx 把cookie的值使用矩阵变量的方式进行传递 <br/>
+
+<form action="/save" method="post">
+    测试@RequestBody获取数据<br/>
+    用户名:<input name="userName"/><br/>
+    邮箱:<input name="email"/><br/>
+    <input type="submit" value="提交"/>
+</form>
+
+<ul>
+    <li>居正变量需要在SpringBoot中手动开启</li>
+    <li>根据RFC3986规范，矩阵变量应当绑定再路径变量中</li>
+    <li>如果有多个矩阵变量，应当用英文符号 ; 进行分割</li>
+    <li>若是一个矩阵变量有多个值，应当使用英文符号 , 进行分割，或者命名多个重复的key即可</li>
+    <li>如: /cars/sell;low=34;brand=byd,audi,yd</li>
+</ul>
+<hr/>
+测试复杂类型:
+<hr/>
+测试封装pojo:
+<form action="/person" method="post">
+    用户名:<input name="userName" value="hkjhkj"/><br/>
+    年龄:<input name="age" value="12"/><br/>
+    生日:<input name="birth" value="2021/02/12"/><br/>
+    <!--宠物名:<input name="pet.name"/><br/>
+    宠物年龄:<input name="pet.age"/><br/>-->
+    宠物:<input name="pet" value="阿猫,3"/>
+    <input type="submit" name="提交"/>
+</form>
+</body>
+</html>

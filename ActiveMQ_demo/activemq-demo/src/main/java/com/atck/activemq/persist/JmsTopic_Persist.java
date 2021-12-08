@@ -6,7 +6,7 @@ import javax.jms.*;
 
 public class JmsTopic_Persist
 {
-    public static final String  ACTIVEMQ_TOPIC = "topic01";
+    public static final String  ACTIVEMQ_TOPIC = "jdbc_topic01";
     public static final String  ACTIVEMQ_URL = "tcp://192.168.153.132:61616";
 
     public static void main(String[] args) throws JMSException
@@ -26,7 +26,7 @@ public class JmsTopic_Persist
         //持久化主题，要在设置完持久化之后再启动连接
         connection.start();
 
-        for (int i = 0; i < 20; i++)
+        for (int i = 0; i < 3; i++)
         {
             TextMessage textMessage = session.createTextMessage("msg----" + i);
 

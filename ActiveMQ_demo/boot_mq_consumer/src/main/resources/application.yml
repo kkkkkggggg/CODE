@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  activemq:
+    broker-url: tcp://zookeeper00:61616
+    user: admin
+    password: admin
+  jms: #指定连接的是队列(Queue)还是主题(Topic)
+    pub-sub-domain: false #false代表队列,true代表主题
+
+#定义连接的队列名
+my:
+  queue:
+    name: springboot-activemq-queue

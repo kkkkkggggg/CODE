@@ -18,7 +18,7 @@ public class Response1 extends HttpServlet
         resp.setStatus(302);
         //设置响应头，说明新的地址在哪里
 //        resp.setHeader("Location","http://localhost:8080/07_servlet/response2");
-//        resp.setHeader("Location","http://localhost:8080/07_servlet/WEB-INF/from.html");不能访问WEB-INf里的资源
+//        resp.setHeader("Location","http://localhost:8080/07_servlet/WEB-INF/from.html");//不能访问WEB-INf里的资源
 
         resp.sendRedirect("http://localhost:8080/07_servlet/response2");
     }

@@ -1,0 +1,19 @@
+
+<tr class="gradeX" th:each="user: ${users.records}">
+    <td th:text="${user.id}"></td>
+    <td>[[${user.name}]]</td>
+    <td th:text="${user.age}">Win 95+</td>
+    <td th:text="${user.email}">4</td>
+    <td>
+        <a th:href="@{/user/delete/{id}(id=${user.id},pn=${users.current})}" class="btn btn-danger btn-sm" type="button">删除</a>
+    </td>
+</tr>
+
+<li th:class="${num == users.current?'active':''}" th:each="num:${#numbers.sequence(1,users.pages)}" >
+    <a th:href="@{/dynamic_table(pn=${num})}">[[${num}]]</a>
+</li>-->
+
+
+<div class="dataTables_info" id="dynamic-table_info">
+    当前第[[${users.current}]]页  总计 [[${users.pages}]]页  共[[${users.total}]]条记录
+</div>

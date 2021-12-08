@@ -17,7 +17,7 @@ public class Servlet2 extends HttpServlet
 
         //查看柜台一是否有盖章
         Object key = req.getAttribute("key");
-        System.out.println("柜台一是否有章" + key);
+        System.out.println("柜台一是否有章:" + key);
 
         //处理自己的业务
         System.out.println("Servlet2处理自己的业务");

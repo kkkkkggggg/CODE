@@ -53,7 +53,6 @@ public class ModelAttributeTestController
         // System.out.println("传入的model：" + model.getClass());
         System.out.println("页面要提交过来的图书信息：" + book);
         System.out.println("o1 == o2?" + (o1 == o2));
-
         return "success";
     }
 

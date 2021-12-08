@@ -1,0 +1,119 @@
+#spring:
+#  mvc:
+#  static-path-pattern: /static/**
+
+#spring:
+#  servlet:
+#    multipart:
+#      max-file-size: 10MB
+
+#spring:
+#  servlet:
+#    multipart:
+#      max-request-size: 100MB
+
+#server:
+#  error:
+#    path: /error
+
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/mp
+#    username: root
+#    password: 12138970
+#    driver-class-name: com.mysql.jdbc.Driver
+#    filters: stat,wall #在yaml配置文件中中设置监控功能
+
+
+spring:
+    boot:
+      admin:
+        client:
+          url: http://localhost:9999
+          instance:
+            prefer-ip: true #使用IP注册进来
+
+    application:
+      name: boot-05-web-admin
+
+    datasource:
+      druid:
+        url: jdbc:mysql://localhost:3306/mp
+        username: root
+        password: 12138970
+        driver-class-name: com.mysql.jdbc.Driver
+
+      stat-view-servlet:
+        url-pattern: /druid/*
+        enabled: true
+        login-username: admin
+        login-password: 12138970
+        reset-enable: false
+
+      web-stat-filter:
+        enabled: true
+        session-stat-enable: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+      filter:
+        wall:
+          enabled: true
+        stat:
+          enabled: true
+
+      aop-patterns: com.atck.admin.*
+
+#  redis:
+#    host: 192.168.153.128
+#    client-type: jedis
+
+#配置mybatis规则
+mybatis:
+#  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  configuration: #指定mybatis全局配置文件中的相关配置项
+    map-underscore-to-camel-case: true
+
+  #management 是所有actuator的配置
+management:
+  endpoints:
+    enabled-by-default: true  #默认开启所有监控端点  true
+    web:
+      exposure:
+        include: '*' # 以web方式暴露所有端点
+
+  endpoint:   #对某个端点的具体配置
+    health:
+      show-details: always
+      enabled: true
+
+    info:
+      enabled: true
+
+    beans:
+      enabled: true
+
+    metrics:
+      enabled: true
+      
+  info:
+    build:
+      enabled: true
+    java:
+      enabled: true
+    defaults:
+      enabled: true
+    env:
+      enabled: true
+    git:
+      enabled: true
+      mode: full
+info:
+  appName: boot-admin
+  appVersion: 1.0.0
+  mavenProjectName: @project.artifactId@
+  mavenProjectVersion: @project.version@
+
+
+
